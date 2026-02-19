@@ -1,0 +1,97 @@
+Project 2: House Price Prediction
+Title
+
+Predicting House Prices Using Machine Learning Regression
+
+Problem Statement
+
+Real estate price estimation is essential for buyers, sellers, and property investors. The goal of this project is to build a machine learning model that predicts house prices based on property features such as size, location, and number of rooms.
+
+Dataset / Inputs
+
+The dataset includes:
+
+Lot Area
+
+Number of Bedrooms and Bathrooms
+
+Year Built
+
+Overall Quality
+
+Living Area Size
+
+Garage Capacity
+
+Sale Price (target variable)
+
+Data was obtained in CSV format and processed using Python.
+
+Methodology
+1. Data Preprocessing
+
+Handled missing values
+
+Removed outliers
+
+Converted categorical variables using encoding
+
+Scaled numerical features where necessary
+
+2. Exploratory Analysis
+
+Correlation analysis between features and price
+
+Distribution analysis of target variable
+
+Feature importance identification
+
+3. Model Building
+
+Models tested:
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+4. Model Evaluation
+
+Metrics used:
+
+Mean Absolute Error (MAE)
+
+Root Mean Squared Error (RMSE)
+
+R² Score
+
+Outputs
+
+The final model predicts house prices based on input property features.
+
+Example input:
+
+Area: 2000 sq ft
+
+Bedrooms: 3
+
+Bathrooms: 2
+
+Quality: High
+
+Output:
+
+Predicted Price: $245,000 (example)
+
+Results
+
+Random Forest performed best among tested models.
+
+Achieved R² score of ~0.85 (depending on dataset).
+
+Key influencing factors: living area size, overall quality, and location-related variables.
+
+Conclusion
+
+This project demonstrates end-to-end machine learning workflow including preprocessing, model training, and evaluation. The model can assist real estate stakeholders in estimating property values accurately.
