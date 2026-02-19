@@ -1,0 +1,66 @@
+1) Create this structure
+
+Repository name:
+
+data-science-portfolio
+
+Inside:
+
+data-science-portfolio/
+│
+├── EDA_Sales_Analysis/
+│   └── eda.ipynb
+│
+├── House_Price_Prediction/
+│   └── model.ipynb
+│
+├── Customer_Churn/
+│   └── churn_model.ipynb
+│
+└── README.md
+
+2) Use a Professional README (Copy this)
+# Data Science Portfolio
+
+Hi, I'm [VENKAIAH MANDA] an aspiring Data Scientist.
+
+This repository contains my projects demonstrating skills in:
+- Python (Pandas, NumPy)
+- Data Visualization (Matplotlib, Seaborn)
+- Machine Learning (Scikit-learn)
+- Data Cleaning & Exploratory Data Analysis
+
+## Projects
+
+### 1. Sales Data Analysis (EDA)
+- Performed data cleaning and visualization
+- Identified sales trends and patterns
+
+### 2. House Price Prediction
+- Built Linear Regression model
+- Evaluated using RMSE
+
+### 3. Customer Churn Prediction
+- Classification model to predict churn
+- Used Logistic Regression / Random Forest
+
+## Tools & Technologies
+Python | Jupyter Notebook | Pandas | NumPy | Scikit-learn
+
+## Contact
+Email: your@email.com
+
+3) What to submit in the application
+
+Submit either:
+
+https://github.com/yourusername
+
+
+OR
+
+https://github.com/yourusername/data-science-portfolio
+
+
+Both are acceptable.
+
