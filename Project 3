@@ -1,0 +1,87 @@
+Project 3: Customer Churn Prediction
+Title
+
+Predicting Customer Churn Using Classification Models
+
+Problem Statement
+
+Customer retention is critical for business profitability. Companies lose revenue when customers stop using their services (churn). The objective of this project is to build a machine learning model that predicts whether a customer is likely to churn based on demographic and usage data.
+
+Dataset / Inputs
+
+The dataset contains customer information such as:
+
+Gender
+
+Age / Senior Citizen
+
+Tenure (months)
+
+Monthly Charges
+
+Contract Type
+
+Payment Method
+
+Internet Service Type
+
+Churn (Yes/No – target variable)
+
+Methodology
+1. Data Preparation
+
+Handled missing values
+
+Converted categorical variables using one-hot encoding
+
+Split data into training and testing sets
+
+2. Exploratory Analysis
+
+Churn rate analysis
+
+Feature distribution comparison between churned and retained customers
+
+Correlation analysis
+
+3. Model Training
+
+Algorithms used:
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+4. Evaluation Metrics
+
+Accuracy
+
+Precision
+
+Recall
+
+Confusion Matrix
+
+Outputs
+
+The model predicts churn probability.
+
+Example:
+Input customer features → Output:
+Churn Probability = 0.72 (High Risk)
+
+Results
+
+Random Forest achieved highest accuracy (~80–85%).
+
+Customers with month-to-month contracts had higher churn rates.
+
+Higher monthly charges correlated with increased churn risk.
+
+Long-tenure customers were less likely to leave.
+
+Conclusion
+
+This project shows practical application of classification techniques to solve a real business problem. The model can help companies identify at-risk customers and implement retention strategies.
