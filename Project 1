@@ -1,0 +1,84 @@
+Project 1: Sales Data Analysis (Exploratory Data Analysis)
+Title
+
+Exploratory Data Analysis of Retail Sales to Identify Business Insights
+
+Problem Statement
+
+Retail businesses generate large volumes of transactional data, but without proper analysis, it is difficult to identify trends, seasonal patterns, and high-performing products. The objective of this project is to perform Exploratory Data Analysis (EDA) on a retail sales dataset to uncover meaningful insights that can support business decision-making such as inventory planning, marketing strategy, and revenue optimization.
+
+Dataset / Inputs
+
+The dataset contains transactional sales records with the following features:
+
+Order Date
+
+Product Category
+
+Product Name
+
+Sales Amount
+
+Quantity Sold
+
+Region / City
+
+Customer Segment
+
+The data was provided in CSV format and loaded using Python.
+
+Methodology
+
+The project was implemented using Python with libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
+
+Steps performed:
+
+Data Loading and Inspection
+
+Loaded dataset using Pandas
+
+Checked data types, missing values, and duplicates
+
+Data Cleaning
+
+Handled missing values
+
+Removed duplicate records
+
+Converted date columns to datetime format
+
+Feature Engineering
+
+Extracted Month and Year from Order Date
+
+Created revenue aggregates by category and region
+
+Exploratory Analysis
+
+Monthly sales trends
+
+Sales by product category
+
+Top-performing products
+
+Regional performance comparison
+
+Data Visualization
+
+Line plots for time trends
+
+Bar charts for category comparison
+
+Heatmaps for monthly performance
+
+Outputs
+
+The analysis produced:
+
+Monthly revenue trend visualization
+
+Top 10 products by sales
+
+Category-wise revenue distribution
+
+Region-wise sales performance dashboard
